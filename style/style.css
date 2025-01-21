@@ -87,6 +87,7 @@
     font-weight: 600;
     line-height: 1.9rem;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .nav-button{
@@ -95,14 +96,136 @@
     justify-content: end;
 }
 
-nav{
-    padding: 20px 0px;
-}
-
 .mobile-view{
     display: none;
 }
+
+.mblbtn{
+    font-size: 1.8rem;
+    color: rgb(17, 17, 17);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+nav{
+    padding: 20px 0px;
+}
 /* nav part end */
+
+/* banner part css start */
+
+.banner-container{
+    width: 1440px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bannerh1{
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: 700;
+    color: rgba(17, 17, 17, 1);
+}
+
+.empower{
+    color: rgba(254, 163, 1, 1);
+}
+
+.vision{
+    color: rgba(1, 172, 253, 1);
+}
+
+.bannerp{
+    color: rgb(17, 17, 17);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 24px 0px;
+}
+
+.bannerbtn{
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    background-color: rgba(17, 17, 17, 1);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+/* banner part css end */
 
 
 /* header part end */
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query start */
+
+@media screen and (max-width:576px){
+      .nav-container{
+        width: calc(100% - 40px);
+        padding: 0px 20px;
+      }  
+      
+      .menu{
+        display: none;
+      }
+
+      .navbtn{
+        display: none;
+      }
+
+      .mobile-view{
+        display: block;
+      }
+
+      .navh1{
+        display: none;
+      }
+
+      .banner-container{
+        width: calc(100% - 40px);
+        flex-direction: column-reverse;
+        padding: 0px 20px;
+      }
+
+      .banner-image img{
+        width: 100%;
+      }
+
+      .banner-content{
+        text-align: center;
+      }
+
+      .bannerh1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        color: rgba(17, 17, 17, 1);
+    }
+
+    .bannerp{
+        color: rgb(17, 17, 17);
+        font-size: 0.87rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        margin: 16px 0px;
+    }
+} 
+    
+
+/* media query ends */
