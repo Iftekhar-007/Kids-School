@@ -5,6 +5,10 @@
 .quicksand{
     font-family: "Quicksand", serif;
 }
+
+.raleway{
+    font-family: "Raleway", serif;
+}
 /* font family */
 
 /* universal */
@@ -54,6 +58,7 @@
     line-height: 1.9rem;
     font-weight: 700;
     color: rgba(17, 17, 17, 1);
+    margin-left: 10px;
 }
 
 .nav-a{
@@ -162,6 +167,139 @@ nav{
 
 /* header part end */
 
+/* main part start */
+
+main{
+    width: 100%;
+}
+
+/* curruclum start */
+.curriculum{
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+.curriculum-container{
+    width: 1440px;
+    margin: 0px auto;
+}
+
+.curriculumh1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2.9rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+}
+
+.curriculum-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+
+.card1{
+    text-align: center;
+    padding: 60px 60px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.card2{
+    text-align: center;
+    padding: 60px 60px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.card3{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+    padding: 60px 60px;
+}
+
+.cardh2{
+    color: rgb(32, 32, 32);
+    font-size: 1.53rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-top: 32px;
+}
+
+.cardp{
+    color: rgb(128, 128, 128);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin: 34px;
+}
+
+.cardbtn1{
+    color: rgb(100, 200, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.cardbtn2{
+    color: rgb(240, 170, 0);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.cardbtn3{
+    color: rgb(135, 0, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.direction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.right,
+.left{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2rem;
+    padding: 20px 30px;
+    border-radius: 50%;
+    background-color: orange;
+    cursor: pointer;
+}
+/* curriculum ends */
+
+/* main part ends */
+
 
 
 
@@ -216,6 +354,7 @@ nav{
         line-height: 2.5rem;
         font-weight: 700;
         color: rgba(17, 17, 17, 1);
+        margin-top: 30px;
     }
 
     .bannerp{
@@ -224,6 +363,61 @@ nav{
         font-weight: 500;
         line-height: 1.5rem;
         margin: 16px 0px;
+    }
+
+    .direction{
+        display: none;
+    }
+
+    .curriculum-container{
+        width: calc(100% - 32px);
+        padding: 0px 16px;
+    }
+
+    .curriculum-card{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        padding: 20px 0px;
+    }
+
+    .card1,
+    .card2,
+    .card3{
+        margin:0px;
+    }
+
+    .curriculumh1{
+        color: rgb(0, 0, 0);
+        font-size:1.5rem;
+        font-weight: 700;
+        line-height:2rem;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .cardh2{
+        color: rgb(32, 32, 32);
+        font-size:1rem;
+        font-weight: 700;
+        line-height: 1.25rem;
+        text-align: center;
+    }
+
+    .cardp{
+        color: rgb(128, 128, 128);
+        font-size: 0.7rem;
+        font-weight: 500;
+        line-height:1.25rem;
+        text-align: center;
+    }
+
+    .cardbtn{
+       font-size: 0.7rem;
+       font-weight: 700;
+       line-height: 1.25rem;
+       letter-spacing: 0%;
+       text-align: center;
     }
 } 
     
