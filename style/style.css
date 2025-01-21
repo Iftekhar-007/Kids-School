@@ -1,0 +1,104 @@
+/* font awesome */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+/* font awesome */
+/* font family */
+.quicksand{
+    font-family: "Quicksand", serif;
+}
+/* font family */
+
+/* universal */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* universal */
+
+/* header part start */
+.headers{
+    width: 100%;
+}
+
+/* nav part start */
+.nav-container{
+    width: 1440px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul a{
+    text-decoration: none;
+}
+
+.navh1{
+    font-size: 2rem;
+    line-height: 1.9rem;
+    font-weight: 700;
+    color: rgba(17, 17, 17, 1);
+}
+
+.nav-a{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+}
+
+.home{
+    color: rgba(254, 163, 1, 1);
+}
+
+.about{
+    color: rgba(1, 172, 253, 1);
+}
+
+.facilities{
+    color: rgba(5, 212, 223, 1);
+}
+
+.admission{
+    color: rgba(93, 88, 239, 1);
+}
+
+.navbtn{
+    padding: 10px 50px;
+    border-radius: 12px;
+    background-color:rgba(254, 163, 1, 1) ;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    color: #ffffff;
+}
+
+.nav-button{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+nav{
+    padding: 20px 0px;
+}
+/* nav part end */
+
+
+/* header part end */
