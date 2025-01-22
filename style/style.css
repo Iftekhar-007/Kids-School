@@ -433,10 +433,10 @@ footer{
     background-color: rgba(1, 172, 253, 1);
 }
 
-.footer{
+.footer-container{
     width: 1440px;
     margin: 0px auto;
-    padding: 123px 0px;
+    padding: 123px 0px 60px 0px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -487,6 +487,14 @@ footer{
 .icons-social{
     display: flex;
     gap: 20px;
+}
+
+.mark{
+    color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.25rem;
+        padding-bottom: 60px;
 }
 /* footer part ends */
 
@@ -700,7 +708,61 @@ footer{
 
     /* footer quey start */
 
+    .footer-container{
+        width: calc(100% - 40px);
+        flex-direction: column;
+        padding: 80px 20px 40px 20px;
+    }
+
+    .foot-about{
+        margin: 32px 0px;
+    }
+
+    .footh1{
+        color: rgb(255, 255, 255);
+        font-size: 2.25rem;
+        font-weight: 700;
+        line-height: 2.25rem;
+    }
+
+    .footp{
+        color: rgb(255, 255, 255);
+        font-size:1rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+    }
+
+    .footh3,
+    .iconh3{
+        color: rgb(255, 255, 255);
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 1.5rem;
+        margin-bottom: 12px;
+        margin-left: 7px;
+    }
+
+    .menuul li a{
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.25rem;
+        margin-left: 7px;
+    }
     
+    .icons-social{
+        display: flex;
+        gap: 5px;
+        margin-left: 7px;
+    }
+
+    .foot-main{
+        margin-bottom: 20px;
+    }
+
+    .mark{
+        width: 100%;
+    }
     /* footer query ends */
 } 
     
