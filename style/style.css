@@ -176,8 +176,9 @@ main{
 /* curruclum start */
 .curriculum{
     background-image: url(../assets/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
     padding: 80px 0px;
 }
 
@@ -298,7 +299,151 @@ main{
 }
 /* curriculum ends */
 
+/* story part css start */
+
+.stories{
+    width: 100%;
+    padding: 60px 0px;
+    background: url(../assets/bg.png), linear-gradient(0.0deg, rgba(254, 163, 1, 1), rgba(255, 255, 255, 1) 100%);
+    /* border-radius: 16px 16px 0px 0px; */
+}
+
+.story-container{
+    width: 1440px;
+    margin: 0px auto;
+}
+
+.storyh1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2.9rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+}
+
+.stories-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+    margin: 80px 0px;
+}
+
+.storycard{
+    display: flex;
+    flex-direction: column;
+    /* justify-self: center; */
+}
+
+.storycard1{
+    width: 680px;
+    grid-row: span 2;
+    /* grid-column: span 2; */
+}
+
+.storycard2,
+.storycard3,
+.storycard4,
+.storycard5{
+    /* width: 360px; */
+}
+
+.storycard2,
+.storycard3,
+.storycard4,
+.storycard5 img{
+    /* width: 100%; */
+}
+
+.storycard{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.date{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway", serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    text-transform: capitalize;
+    left: 32px;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    margin-top: -20px;
+}
+
+.date2,
+.date4,
+.date5{
+    background-color: rgb(149, 178, 38);
+}
+
+.date3{
+    background-color: rgb(93, 88, 240);
+}
+
+.storycard img{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.storyh4{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    padding: 38px 58px 0px 38px;
+}
+
+.storyp{
+    color: rgb(102, 102, 102);
+    font-size:0.95rem;
+    font-weight: 500;
+    line-height:1.8rem;
+    padding: 38px 68px 35px 38px;
+}
+
+.storyh5{
+    color: rgb(0, 0, 0);
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    padding: 34px;
+}
+
+.storybtn{
+    width: 1440px;
+    margin:0pc auto ;
+    text-align: center;
+}
+/* story part css end */
+
 /* main part ends */
+
+/* footer part start */
+
+footer{
+    background-color: rgba(1, 172, 253, 1);
+}
+
+.footer{
+    width: 1440px;
+    margin: 0px auto;
+    padding: 123px 0px;
+}
+
+.foot-main{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+/* footer part ends */
 
 
 
@@ -369,6 +514,13 @@ main{
         margin: 18px 0px;
     }
 
+    .bannerbtn{
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 700;
+        line-height:1.9rem;
+    }
+
     .direction{
         display: none;
     }
@@ -423,6 +575,64 @@ main{
        line-height: 1.25rem;
        letter-spacing: 0%;
        text-align: center;
+    }
+
+    .story{
+        padding: 40px 0px;
+    }
+
+    .story-container{
+        width: calc(100% - 32px);
+        padding: 0px 16px;
+    }
+
+    .stories-card{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin: 20px 0px;
+        /* width: 100%; */
+    }
+
+    .storycard1{
+        display: none;
+    }
+
+    .storyh1{
+        font-size: 1.6rem;
+        line-height: 3.5rem;
+        font-weight: bold;
+    }
+
+    .date{
+        font-size: 0.6rem;
+        line-height: 1.1rem;
+        margin-top: -10px;
+        left: 22px;
+        padding: 0px 10px;
+    }
+
+    .storyh5{
+        color: rgb(0, 0, 0);
+        font-family: Quicksand;
+        font-size: 0.6rem;
+        font-weight: 700;
+        line-height: 1.1rem;
+        padding: 22px;
+    }
+
+    .storycard img{
+        width: 100%;
+    } 
+
+    .storybtn{
+        width: 100%;
+    }
+
+    .storiesbtn{
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 700;
+        line-height:1.9rem;
     }
 } 
     
