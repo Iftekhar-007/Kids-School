@@ -15,6 +15,8 @@
 *{
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
+    list-style: none;
 }
 /* universal */
 
@@ -435,13 +437,56 @@ footer{
     width: 1440px;
     margin: 0px auto;
     padding: 123px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .foot-main{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     justify-content: flex-start;
+}
+
+.footh1{
+    color: rgb(255, 255, 255);
+    font-size:2.6rem;
+    font-weight: 700;
+    line-height:2.5rem;
+}
+
+.footp{
+    color: rgb(255, 255, 255);
+    font-size:1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 33px 0px 0px 7px;
+}
+
+.footh3,
+.iconh3{
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    margin-bottom: 32px;
+}
+
+.menuul li a{
+    color: rgb(255, 255, 255);
+    font-size: 1.24rem;
+    font-weight: 500;
+    line-height:1.5rem;
+}
+
+.menuul li{
+    margin-bottom: 20px;
+}
+
+.icons-social{
+    display: flex;
+    gap: 20px;
 }
 /* footer part ends */
 
@@ -459,7 +504,8 @@ footer{
 /* media query start */
 
 @media screen and (max-width:576px){
-      .nav-container{
+     /* nav query start */
+     .nav-container{
         width: calc(100% - 40px);
         padding: 0px 20px;
       }  
@@ -483,6 +529,9 @@ footer{
       .navh1{
         display: none;
       }
+     /* nav query end */
+
+     /* banner query start */
 
       .banner-container{
         width: calc(100% - 40px);
@@ -520,6 +569,12 @@ footer{
         font-weight: 700;
         line-height:1.9rem;
     }
+
+    /* banner query end */
+
+    /* main part start */
+
+    /* curriculum part  */
 
     .direction{
         display: none;
@@ -576,6 +631,10 @@ footer{
        letter-spacing: 0%;
        text-align: center;
     }
+
+    /* curriculum part query ends */
+
+    /* story part query start */
 
     .story{
         padding: 40px 0px;
@@ -634,6 +693,15 @@ footer{
         font-weight: 700;
         line-height:1.9rem;
     }
+
+    /* story part query css end */
+
+    /* main part query ends */
+
+    /* footer quey start */
+
+    
+    /* footer query ends */
 } 
     
 
